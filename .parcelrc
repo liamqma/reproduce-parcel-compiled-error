@@ -1,0 +1,14 @@
+{
+  "extends": "@parcel/config-default",
+  "bundler": "@parcel/bundler-experimental",
+  "transformers": {
+    "*.{js,mjs,jsm,jsx,es6,cjs,ts,tsx}": [
+      "@compiled/parcel-transformer",
+      "..."
+    ]
+  },
+  "resolvers": [
+    "@compiled/parcel-resolver",
+    "..."
+  ]
+}

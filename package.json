@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@compiled/parcel-resolver": "^0.1.1",
+    "@compiled/parcel-transformer": "^0.9.1",
+    "@parcel/bundler-experimental": "^2.7.0",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@compiled/react": "^0.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
