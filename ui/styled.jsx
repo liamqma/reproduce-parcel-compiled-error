@@ -1,5 +1,2 @@
-import { styled as styled2 } from '@compiled/react';
+import './index.css';
 
-export const Container = styled2.div({
-    color: 'red',
-});
